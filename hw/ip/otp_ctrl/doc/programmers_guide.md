@@ -161,7 +161,7 @@ Items that are not linked can only be accessed via the direct programming interf
 It should be noted that CREATOR_SW_CFG and OWNER_SW_CFG are accessible through a memory mapped window, and content of these partitions is not buffered.
 Hence, a read access to those windows will take in the order of 10-20 cycles until the read returns.
 
-Sizes below are specified in multiples of 32bit words.
+Sizes below are specified in bytes.
 
 {{#include otp_ctrl_mmap.md}}
 
